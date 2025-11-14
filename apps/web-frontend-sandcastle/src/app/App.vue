@@ -3,5 +3,5 @@ import NxWelcome from './NxWelcome.vue';
 </script>
 
 <template>
-  <NxWelcome title="@nx-libra/NxLibra" />
+  <NxWelcome title="@nx-libra/web-frontend-sandcastle" />
 </template>

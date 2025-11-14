@@ -4,7 +4,13 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/NxLibra"
+      "path": "./apps/web-frontend-admin"
+    },
+    {
+      "path": "./apps/web-frontend-sandcastle"
+    },
+    {
+      "path": "./libs/ui"
     }
   ]
 }

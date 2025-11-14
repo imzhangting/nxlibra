@@ -1,0 +1,9 @@
+{
+  "name": "@nx-libra/web-frontend-admin",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "nx serve web-frontend-admin",
+    "build": "nx build web-frontend-admin"
+  }
+}
