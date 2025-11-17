@@ -5,10 +5,12 @@
   "scripts": {
     "start": "nx serve web-frontend-admin",
     "build": "nx build web-frontend-admin",
-    "start:sandcastle": "nx serve web-frontend-sandcastle"
+    "start:sandcastle": "nx serve web-frontend-sandcastle",
+    "start:storybook": "nx serve storybook"
   },
   "private": true,
   "dependencies": {
+    "@vueuse/core": "^14.0.0",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
   },
@@ -17,7 +19,7 @@
     "@nx/eslint": "22.0.3",
     "@nx/eslint-plugin": "22.0.3",
     "@nx/js": "22.0.3",
-    "@nx/storybook": "22.0.3",
+    "@nx/storybook": "^22.0.3",
     "@nx/vite": "22.0.3",
     "@nx/vue": "22.0.3",
     "@nx/web": "22.0.3",
